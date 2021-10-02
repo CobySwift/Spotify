@@ -16,6 +16,8 @@ class WelcomeViewController: UIViewController {
         button.setTitleColor(.blue, for: .normal)
         return button
     }()
+    
+    private var sections = [Section]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
