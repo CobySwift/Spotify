@@ -40,6 +40,9 @@
 		CBFF3ABD2736D2460023F31B /* NewReleaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF3ABC2736D2460023F31B /* NewReleaseCollectionViewCell.swift */; };
 		CBFF3ABF2736D2770023F31B /* FeaturedPlaylistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF3ABE2736D2770023F31B /* FeaturedPlaylistCollectionViewCell.swift */; };
 		CBFF3AC12736D2AE0023F31B /* RecommendedTrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF3AC02736D2AE0023F31B /* RecommendedTrackCollectionViewCell.swift */; };
+		CBFF3AC32736E8450023F31B /* NewReleasesCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF3AC22736E8450023F31B /* NewReleasesCellViewModel.swift */; };
+		CBFF3AC52736EE420023F31B /* FeaturedPlaylistCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF3AC42736EE420023F31B /* FeaturedPlaylistCellViewModel.swift */; };
+		CBFF3AC72736EE580023F31B /* RecommendedTracksCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF3AC62736EE580023F31B /* RecommendedTracksCellViewModel.swift */; };
 		D23A3E1C9E86FE20CCAEFF1B /* Pods_Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53EC85AB84AF3894FF18B947 /* Pods_Spotify.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +85,9 @@
 		CBFF3ABC2736D2460023F31B /* NewReleaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		CBFF3ABE2736D2770023F31B /* FeaturedPlaylistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistCollectionViewCell.swift; sourceTree = "<group>"; };
 		CBFF3AC02736D2AE0023F31B /* RecommendedTrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		CBFF3AC22736E8450023F31B /* NewReleasesCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesCellViewModel.swift; sourceTree = "<group>"; };
+		CBFF3AC42736EE420023F31B /* FeaturedPlaylistCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistCellViewModel.swift; sourceTree = "<group>"; };
+		CBFF3AC62736EE580023F31B /* RecommendedTracksCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTracksCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +181,9 @@
 		CBD36E9F27079B4200869624 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CBFF3AC22736E8450023F31B /* NewReleasesCellViewModel.swift */,
+				CBFF3AC42736EE420023F31B /* FeaturedPlaylistCellViewModel.swift */,
+				CBFF3AC62736EE580023F31B /* RecommendedTracksCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -361,11 +370,14 @@
 				CBD36EA527079D3300869624 /* SearchViewController.swift in Sources */,
 				CBD36EC027079E4A00869624 /* Playlist.swift in Sources */,
 				CBD36EBA27079E0C00869624 /* AuthManager.swift in Sources */,
+				CBFF3AC32736E8450023F31B /* NewReleasesCellViewModel.swift in Sources */,
 				CBD36EB827079DF300869624 /* SearchResultsViewController.swift in Sources */,
+				CBFF3AC52736EE420023F31B /* FeaturedPlaylistCellViewModel.swift in Sources */,
 				CBD36EAE27079DA700869624 /* WelcomeViewController.swift in Sources */,
 				CBD36EB227079DC200869624 /* ProfileViewController.swift in Sources */,
 				CBD36EA327079CFD00869624 /* TabBarViewController.swift in Sources */,
 				CBD36EBE27079E3100869624 /* HapticsManager.swift in Sources */,
+				CBFF3AC72736EE580023F31B /* RecommendedTracksCellViewModel.swift in Sources */,
 				CBFF3AC12736D2AE0023F31B /* RecommendedTrackCollectionViewCell.swift in Sources */,
 				CB9B7627270850A5007BCE07 /* AuthResponse.swift in Sources */,
 				CBA776D5272E84FA00D99603 /* NewReleasesResponse.swift in Sources */,
