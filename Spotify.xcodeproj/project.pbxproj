@@ -37,6 +37,9 @@
 		CBD36EC427079E6500869624 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD36EC327079E6500869624 /* Artist.swift */; };
 		CBD36EC627079E7700869624 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD36EC527079E7700869624 /* UserProfile.swift */; };
 		CBD36EC82707A45700869624 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD36EC72707A45700869624 /* Extensions.swift */; };
+		CBFF3ABD2736D2460023F31B /* NewReleaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF3ABC2736D2460023F31B /* NewReleaseCollectionViewCell.swift */; };
+		CBFF3ABF2736D2770023F31B /* FeaturedPlaylistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF3ABE2736D2770023F31B /* FeaturedPlaylistCollectionViewCell.swift */; };
+		CBFF3AC12736D2AE0023F31B /* RecommendedTrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF3AC02736D2AE0023F31B /* RecommendedTrackCollectionViewCell.swift */; };
 		D23A3E1C9E86FE20CCAEFF1B /* Pods_Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53EC85AB84AF3894FF18B947 /* Pods_Spotify.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +79,9 @@
 		CBD36EC327079E6500869624 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		CBD36EC527079E7700869624 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		CBD36EC72707A45700869624 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CBFF3ABC2736D2460023F31B /* NewReleaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		CBFF3ABE2736D2770023F31B /* FeaturedPlaylistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistCollectionViewCell.swift; sourceTree = "<group>"; };
+		CBFF3AC02736D2AE0023F31B /* RecommendedTrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTrackCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,7 @@
 		CBD36E9D27079B2F00869624 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CBFF3ABB2736D2110023F31B /* Browse */,
 				CBD36E9327079B1400869624 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
@@ -216,6 +223,16 @@
 				CBD36EB727079DF300869624 /* SearchResultsViewController.swift */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		CBFF3ABB2736D2110023F31B /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF3ABC2736D2460023F31B /* NewReleaseCollectionViewCell.swift */,
+				CBFF3ABE2736D2770023F31B /* FeaturedPlaylistCollectionViewCell.swift */,
+				CBFF3AC02736D2AE0023F31B /* RecommendedTrackCollectionViewCell.swift */,
+			);
+			path = Browse;
 			sourceTree = "<group>";
 		};
 		D95276E51D7D46B2EB623EB1 /* Pods */ = {
@@ -349,13 +366,16 @@
 				CBD36EB227079DC200869624 /* ProfileViewController.swift in Sources */,
 				CBD36EA327079CFD00869624 /* TabBarViewController.swift in Sources */,
 				CBD36EBE27079E3100869624 /* HapticsManager.swift in Sources */,
+				CBFF3AC12736D2AE0023F31B /* RecommendedTrackCollectionViewCell.swift in Sources */,
 				CB9B7627270850A5007BCE07 /* AuthResponse.swift in Sources */,
 				CBA776D5272E84FA00D99603 /* NewReleasesResponse.swift in Sources */,
 				CBA776D7272E861000D99603 /* APIImage.swift in Sources */,
 				CBA776DD272E915000D99603 /* RecommendationsResponse.swift in Sources */,
 				CBD36EC227079E5800869624 /* AudioTrack.swift in Sources */,
 				CBD36E8D27079B1200869624 /* HomeViewController.swift in Sources */,
+				CBFF3ABD2736D2460023F31B /* NewReleaseCollectionViewCell.swift in Sources */,
 				CBD36EAC27079D9B00869624 /* AuthViewController.swift in Sources */,
+				CBFF3ABF2736D2770023F31B /* FeaturedPlaylistCollectionViewCell.swift in Sources */,
 				CBD36EB027079DB600869624 /* SettingsViewController.swift in Sources */,
 				CBD36EC627079E7700869624 /* UserProfile.swift in Sources */,
 				CBD36EC82707A45700869624 /* Extensions.swift in Sources */,
